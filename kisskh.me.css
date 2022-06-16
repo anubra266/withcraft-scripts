@@ -1,0 +1,17 @@
+.col-xl-7 {
+  max-width: 100%;
+}
+.row.d-flex.justify-content-center.m-md-0.ng-star-inserted {
+  display: block !important;
+}
+mat-toolbar + div {
+  margin-top: 0px !important;
+}
+.mat-toolbar.sidenav.mat-primary.mat-toolbar-multiple-rows {
+  overflow: hidden;
+  opacity: 0;
+  transition: all 0.2s ease;
+}
+.mat-toolbar.sidenav.mat-primary.mat-toolbar-multiple-rows:hover {
+  opacity: 1;
+}
