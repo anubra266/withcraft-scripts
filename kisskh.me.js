@@ -32,7 +32,7 @@ document.addEventListener("keydown", (e) => {
     f() {
       fullScreen.click();
     },
-    // Lock or unclock player
+    // Lock or unlock player
     l() {
       if (captionButton) {
         let sibling = captionButton.nextSibling;
